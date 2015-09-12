@@ -2,9 +2,9 @@
   "name": "SemanticWebApp",
   "description": "Semantic Web application",
   "author": "Kalughniy N.V.",
-  "version": "0.1",
+  "version": "1.0.0",
   "dependencies": {
     "express": "^4.13.3",
-    "n3": "^0.4.3"
+    "express-handlebars": "^2.0.1"
   }
 }
