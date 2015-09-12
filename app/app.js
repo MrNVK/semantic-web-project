@@ -28,7 +28,6 @@ app.get('/', function(req, res) {
           console.log(objects);
         }
       });
-      
     });
   });
   res.render('index');

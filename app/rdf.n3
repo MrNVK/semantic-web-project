@@ -1,3 +1,8 @@
-@prefix s: <http://mystore.org/processors#>.
-s:Intel a s:Company.
-s:AMD a s:Company.
+@prefix s: <http://mystore.org/#> .
+s:Intel a s:company .
+s:AMD a s:company .
+s:Core-i7 s:produces s:Intel .
+s:Core-i5 s:produces s:Intel .
+s:Core-i3 s:produces s:Intel .
+s:A4 s:produces s:AMD .
+s:A6 s:produces s:AMD .
