@@ -5,6 +5,8 @@
   "version": "1.0.0",
   "dependencies": {
     "express": "^4.13.3",
-    "express-handlebars": "^2.0.1"
+    "express-handlebars": "^2.0.1",
+    "n3": "^0.4.3",
+    "rdfstore": "^0.9.7"
   }
 }

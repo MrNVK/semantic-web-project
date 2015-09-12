@@ -1,0 +1,3 @@
+@prefix s: <http://mystore.org/processors#>.
+s:Intel a s:Company.
+s:AMD a s:Company.
