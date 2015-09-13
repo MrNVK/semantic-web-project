@@ -1,6 +1,5 @@
 var express    = require('express'),
     handlebars = require('express-handlebars'),
-    rdfstore   = require('rdfstore'),
     jsonld     = require('jsonld'),
     fs         = require('fs'),
     app        = express();	
