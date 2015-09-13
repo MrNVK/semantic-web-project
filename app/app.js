@@ -59,7 +59,6 @@ app.get('/reviews/:id', function(req, res) {
     var splitedpRequest = param.split('_');
 
     var findedJson = find(clearedJson, splitedpRequest[0], splitedpRequest[1]);
-    console.log(findedJson[0]);
     res.render('reviews', findedJson[0]);
   });
 });
