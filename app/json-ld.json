@@ -1,0 +1,94 @@
+{
+  "@context": {
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "s": "http://mystore.org/#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "s:Core-i3",
+      "s:L2": "512kb",
+      "s:L3": "4096kb",
+      "s:TDP": "54W",
+      "s:distType": "OEM",
+      "s:freq": "2x3500",
+      "s:model": "Core-i3",
+      "s:produces": "Intel",
+      "s:review": [
+        "I want return my money!",
+        "Very old processor. Not enough speed."
+      ],
+      "s:series": "4330",
+      "s:socket": "LGA 1150"
+    },
+    {
+      "@id": "s:Core-i5",
+      "s:L2": "1024kb",
+      "s:L3": "6144kb",
+      "s:TDP": "84W",
+      "s:distType": "OEM",
+      "s:freq": "4x3100",
+      "s:model": "Core-i5",
+      "s:produces": "Intel",
+      "s:review": [
+        "Pretty good, but it may be more fast.",
+        "Nice! Fast and cold!",
+        "Can I return my money?! I want i7!"
+      ],
+      "s:series": "4440",
+      "s:socket": "LGA 1150"
+    },
+    {
+      "@id": "s:Core-i7",
+      "s:L2": "1024kb",
+      "s:L3": "10240kb",
+      "s:TDP": "84W",
+      "s:distType": "BOX",
+      "s:freq": "4x3700",
+      "s:model": "Core-i7",
+      "s:produces": "Intel",
+      "s:review": [
+        "Not so good. Can I return my money?!",
+        "Nice processor! Fast and cold!",
+        "Pretty good, but it may be more fast."
+      ],
+      "s:series": "4770",
+      "s:socket": "LGA 1150"
+    },
+    {
+      "@id": "s:A4",
+      "s:L2": "1024kb",
+      "s:TDP": "65W",
+      "s:distType": "OEM",
+      "s:freq": "2x3500",
+      "s:model": "A4",
+      "s:produces": "AMD",
+      "s:review": [
+        "Pretty good, but it may be more fast.",
+        "Very old processor. Not enough speed.",
+        "It can be better.",
+        "I want return my money!",
+        "Very veak CPU.",
+        "May be Intel do processors better?"
+      ],
+      "s:series": "6300",
+      "s:socket": "FM2"
+    },
+    {
+      "@id": "s:A6",
+      "s:L2": "1024kb",
+      "s:TDP": "65W",
+      "s:distType": "BOX",
+      "s:freq": "2x3700",
+      "s:model": "A6",
+      "s:produces": "AMD",
+      "s:review": [
+        "More speed! Please :(",
+        "It can be better."
+      ],
+      "s:series": "7400K",
+      "s:socket": "FM2+"
+    }
+  ]
+}

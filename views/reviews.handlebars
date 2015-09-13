@@ -1,0 +1,39 @@
+<div>
+	<h2>{{model.[0].value}} {{series.[0].value}}</h2>
+	<div class="row">
+  		<div class="col-md-1">Produces: </div>
+		<div class="col-md-2">{{produces.[0].value}}</div>
+	</div>
+	<div class="row">
+  		<div class="col-md-1">Model: </div>
+		<div class="col-md-2">{{model.[0].value}}</div>
+	</div>
+	<div class="row">
+  		<div class="col-md-1">Series: </div>
+		<div class="col-md-2">{{series.[0].value}}</div>
+	</div>
+	<div class="row">
+  		<div class="col-md-1">Socket: </div>
+		<div class="col-md-2">{{socket.[0].value}}</div>
+	</div>
+	<div class="row">
+  		<div class="col-md-1">Freq.: </div>
+		<div class="col-md-2">{{freq.[0].value}}</div>
+	</div>
+	<div class="row">
+  		<div class="col-md-1">TDP: </div>
+		<div class="col-md-2">{{TDP.[0].value}}</div>
+	</div>
+	<div class="row">
+  		<div class="col-md-1">Distrib.: </div>
+		<div class="col-md-2">{{distType.[0].value}}</div>
+	</div> 
+
+	<p></p>
+	<h3>Reviews:</h3>
+	<ol>
+		{{#each review}}
+			<li>{{value}}</li>
+		{{/each}}
+	</ol>
+</div>

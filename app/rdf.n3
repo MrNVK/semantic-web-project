@@ -1,8 +1,53 @@
 @prefix s: <http://mystore.org/#> .
-s:Intel a s:company .
-s:AMD a s:company .
+
 s:Core-i7 s:produces s:Intel .
 s:Core-i5 s:produces s:Intel .
 s:Core-i3 s:produces s:Intel .
 s:A4 s:produces s:AMD .
 s:A6 s:produces s:AMD .
+
+s:Core-i7 s:series "4770" .
+s:Core-i5 s:series "4440" .
+s:Core-i3 s:series "4330" .
+
+s:Core-i7 s:freq "4x3700" .
+s:Core-i5 s:freq "4x3100" .
+s:Core-i3 s:freq "2x3500" .
+
+s:Core-i7 s:distType "BOX" .
+s:Core-i5 s:distType "OEM" .
+s:Core-i3 s:distType "OEM" .
+
+s:Core-i7 s:socket "LGA 1150" .
+s:Core-i5 s:socket "LGA 1150" .
+s:Core-i3 s:socket "LGA 1150" .
+
+s:Core-i7 s:L2 "1024kb" .
+s:Core-i5 s:L2 "1024kb" .
+s:Core-i3 s:L2 "512kb" .
+
+s:Core-i7 s:L3 "10240kb" .
+s:Core-i5 s:L3 "6144kb" .
+s:Core-i3 s:L3 "4096kb" .
+
+s:Core-i7 s:TDP "84W" .
+s:Core-i5 s:TDP "84W" .
+s:Core-i3 s:TDP "54W" .
+
+s:A4 s:series "6300" .
+s:A6 s:series "7400K" .
+
+s:A4  s:freq "2x3500" .
+s:A6 s:freq "2x3700" .
+
+s:A4 s:distType "OEM" .
+s:A6 s:distType "BOX" .
+
+s:A4 s:socket "FM2" .
+s:A6 s:socket "FM2+" .
+
+s:A4 s:L2 "1024kb" .
+s:A6 s:L2 "1024kb" .
+
+s:A4 s:TDP "65W" .
+s:A6 s:TDP "65W" .

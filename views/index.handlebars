@@ -1,3 +1,37 @@
 <div>
-	<h3>Index!</h3>
+	<h3>Processors:</h3>
+	<table class="table">
+		<thead>
+			<th>Produces</th>
+			<th>Model</th>
+			<th>Socket</th>
+			<th>Freq.</th>
+			<th>L2 cash</th>
+			<th>L3 cash</th>
+		</thead>
+		<tbody>
+		{{#each processors}}
+			<tr>
+				<td>{{produces.[0].value}}</td>
+				<td><a href="/reviews/{{model.[0].value}}_{{series.[0].value}}">{{model.[0].value}} {{series.[0].value}}</a></td>
+				<td>{{socket.[0].value}}</td>
+				<td>{{freq.[0].value}}</td>
+				<td>
+					{{#if L2.[0].value}}
+						{{L2.[0].value}}
+					{{else}}
+						-
+					{{/if}}
+				</td>
+				<td>
+					{{#if L3.[0].value}}
+						{{L3.[0].value}}
+					{{else}}
+						-
+					{{/if}}
+				</td>
+			</tr>
+		{{/each}}
+		</tbody>
+	</table>
 </div>
